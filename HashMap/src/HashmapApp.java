@@ -65,7 +65,7 @@ public class HashmapApp
 			while (it.hasNext())
 			{
 				Map.Entry<Integer, String> values = it.next(); //gets the keys and values at each point in the hashmap
-				out.write(values.getKey() + "   " +values.getValue() + "\n"); //writes each line of the hashmap to the file
+				out.write("You entered: "+values.getKey() + "-->   " +values.getValue() + "\n"); //writes each line of the hashmap to the file
 			}
 			out.close(); // closes the BufferedWriter
 		}
